@@ -10,6 +10,21 @@ nav{
   justify-content: space-between;
 }
 
+article {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+article > p{
+  display: flex;
+  margin: 10px 150px;
+  text-indent: 30px;
+  font-family: serif;
+  font-size: 18px;
+  color: #b9b9b9;
+}
+
 #nLeft {
 display: flex;
 margin-left: 150px
