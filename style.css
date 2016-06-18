@@ -1,0 +1,26 @@
+html {
+  height: 100%;
+}
+
+nav{
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  justify-content: space-between;
+}
+
+#nLeft {
+display: flex;
+margin-left: 100px
+}
+
+#nRight {
+  display: flex;
+  margin-right: 100px;
+}
+
+#nLogo {
+  font-family: cursive;
+  font-weight: bold;
+  font-size: 30px;
+}
