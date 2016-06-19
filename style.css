@@ -60,3 +60,56 @@ margin-left: 150px
   font-size: 10px;
   margin-top: 0;
 }
+
+#stripes {
+  padding-top: 20px;
+  margin-top: 20px;
+  height: 2px;
+  background: repeating-linear-gradient(
+    45deg,
+    #FFFFFF,
+    #FFFFFF 2px,
+    #A9A9A9 2px,
+    #A9A9A9 4px
+    );
+}
+
+h2 {
+  font-family: sans-serif;
+  border-top:
+  padding-bottom: 1px;
+  margin-bottom: 0;
+  margin-top: 50px;
+  font-size: 30px
+}
+
+#dateprint {
+  margin-top: 0;
+  border: 0;
+  color: #C0C0C0;
+  font-size: 12px;
+  font-family: monospace;
+}
+
+#printicon {
+  display: inline;
+  float: right;
+}
+
+#date {
+  display: inline;
+ padding: 0;
+ margin: 0;
+}
+
+#print {
+  display: inline;
+  padding: 0;
+  margin: 0;
+}
+
+#printer {
+  display: inline;
+  padding: 0;
+  margin:0;
+}
