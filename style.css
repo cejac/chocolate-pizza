@@ -25,8 +25,6 @@ article > p{
   color: #b9b9b9;
 }
 
-
-
 #nLeft {
 display: flex;
 margin-left: 150px
@@ -63,7 +61,6 @@ margin-left: 150px
   margin-top: 0;
 }
 
-<<<<<<< HEAD
 .float{
  z-index: 1;
  margin-right: 100px;
@@ -79,8 +76,10 @@ margin-left: 150px
   margin-top: -325px;
   margin-left: 75px;
   font-size: 20px;
-=======
-#stripes {
+}
+
+
+  #stripes {
   padding-top: 20px;
   margin-top: 20px;
   height: 2px;
@@ -99,7 +98,7 @@ h2 {
   padding-bottom: 1px;
   margin-bottom: 0;
   margin-top: 50px;
-  font-size: 30px
+  font-size: 30px;
 }
 
 #dateprint {
@@ -131,5 +130,16 @@ h2 {
   display: inline;
   padding: 0;
   margin:0;
->>>>>>> master
+}
+
+footer {
+  margin-top: 100px;
+	text-align: center;
+	font-size: 15px;
+	color: #C0C0C0;
+}
+
+footer > img {
+	left: 500px;
+	top: -75px;
 }
