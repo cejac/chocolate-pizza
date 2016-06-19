@@ -24,3 +24,17 @@ margin-left: 100px
   font-weight: bold;
   font-size: 30px;
 }
+
+#stripes2 {
+  padding-top: 20px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  height: 2px;
+  background: repeating-linear-gradient(
+    45deg,
+    #FFFFFF,
+    #FFFFFF 2px,
+    #A9A9A9 2px,
+    #A9A9A9 4px
+    );
+}
