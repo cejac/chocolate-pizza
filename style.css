@@ -132,3 +132,61 @@ h2 {
   padding: 0;
   margin:0;
 }
+
+#stripes2 {
+  padding-top: 20px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  height: 2px;
+  background: repeating-linear-gradient(
+    45deg,
+    #FFFFFF,
+    #FFFFFF 2px,
+    #A9A9A9 2px,
+    #A9A9A9 4px
+    );
+}
+
+#about {
+  display: flex;
+  justify-content: space-between;
+  height: 40px;
+}
+
+#vanpic{
+  height: 35px;
+  weight: 35px;
+  padding-right: 10px;
+}
+
+#van {
+  padding-left: 0;
+  margin-left: 0;
+  height: 30px;
+  margin-bottom: 0;
+  padding-bottom: 0;
+  border-bottom: 0;
+  margin-top: 0;
+  padding-top: 0;
+
+}
+
+#description {
+  margin-top:0;
+  padding-top: 0;
+  border-top:0;
+  font-size: 12px;
+  padding-right: 30px;
+}
+
+
+#button {
+  float: right;
+  background-color: #824626;
+  border: 0 solid #824626;
+  color: white;
+  width: 120px;
+  height: 35px;
+  font-family: monospace;;
+  font-size: 10px;
+}
