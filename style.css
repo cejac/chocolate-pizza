@@ -132,18 +132,6 @@ h2 {
   margin:0;
 }
 
-footer {
-  margin-top: 100px;
-	text-align: center;
-	font-size: 15px;
-	color: #C0C0C0;
-}
-
-footer > img {
-	left: 500px;
-	top: -75px;
-}
-
 #stripes2 {
   padding-top: 20px;
   margin-top: 20px;
@@ -200,4 +188,16 @@ footer > img {
   height: 35px;
   font-family: monospace;;
   font-size: 10px;
+}
+
+footer {
+  margin-top: 100px;
+	text-align: center;
+	font-size: 15px;
+	color: #C0C0C0;
+}
+
+footer > img {
+	left: 500px;
+	top: -75px;
 }
