@@ -21,9 +21,11 @@ article > p{
   margin: 10px 150px;
   text-indent: 30px;
   font-family: serif;
-  font-size: 18px;
+  font-size: 20px;
   color: #b9b9b9;
 }
+
+
 
 #nLeft {
 display: flex;
@@ -59,4 +61,21 @@ margin-left: 150px
 #nMotto{
   font-size: 10px;
   margin-top: 0;
+}
+
+.float{
+ z-index: 1;
+ margin-right: 100px;
+}
+
+#formOne{
+  -moz-column-count: 2;
+  -moz-column-gap: 30px;
+  -webkit-column-count: 2;
+  -webkit-column-gap: 30px;
+  column-count: 2;
+  column-gap: 30px;
+  margin-top: -325px;
+  margin-left: 75px;
+  font-size: 20px;
 }
