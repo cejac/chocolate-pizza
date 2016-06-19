@@ -63,7 +63,6 @@ margin-left: 150px
   margin-top: 0;
 }
 
-<<<<<<< HEAD
 .float{
  z-index: 1;
  margin-right: 100px;
@@ -79,7 +78,8 @@ margin-left: 150px
   margin-top: -325px;
   margin-left: 75px;
   font-size: 20px;
-=======
+}
+
 #stripes {
   padding-top: 20px;
   margin-top: 20px;
@@ -131,19 +131,4 @@ h2 {
   display: inline;
   padding: 0;
   margin:0;
->>>>>>> master
-}
-
-#stripes2 {
-  padding-top: 20px;
-  margin-top: 20px;
-  margin-bottom: 20px;
-  height: 2px;
-  background: repeating-linear-gradient(
-    45deg,
-    #FFFFFF,
-    #FFFFFF 2px,
-    #A9A9A9 2px,
-    #A9A9A9 4px
-    );
 }
