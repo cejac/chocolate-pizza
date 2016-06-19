@@ -3,26 +3,135 @@ html {
 }
 
 nav{
+  margin-top: 30px;
   display: flex;
   flex-direction: row;
   width: 100%;
   justify-content: space-between;
 }
 
+article {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+article > p{
+  display: flex;
+  margin: 10px 150px;
+  text-indent: 30px;
+  font-family: serif;
+  font-size: 20px;
+  color: #b9b9b9;
+}
+
+
+
 #nLeft {
 display: flex;
-margin-left: 100px
+margin-left: 150px
 }
+
+#nLeft > img {
+  width: 50px;
+  height: 50px;
+}
+
 
 #nRight {
   display: flex;
-  margin-right: 100px;
+  margin-right: 150px;
 }
 
+#icons {
+  margin-right: 15px;
+}
+#text {
+  margin-top: -40px;
+  margin-left: 10px;
+
+}
 #nLogo {
   font-family: cursive;
   font-weight: bold;
   font-size: 30px;
+  margin-bottom: 0;
+}
+
+#nMotto{
+  font-size: 10px;
+  margin-top: 0;
+}
+
+<<<<<<< HEAD
+.float{
+ z-index: 1;
+ margin-right: 100px;
+}
+
+#formOne{
+  -moz-column-count: 2;
+  -moz-column-gap: 30px;
+  -webkit-column-count: 2;
+  -webkit-column-gap: 30px;
+  column-count: 2;
+  column-gap: 30px;
+  margin-top: -325px;
+  margin-left: 75px;
+  font-size: 20px;
+=======
+#stripes {
+  padding-top: 20px;
+  margin-top: 20px;
+  height: 2px;
+  background: repeating-linear-gradient(
+    45deg,
+    #FFFFFF,
+    #FFFFFF 2px,
+    #A9A9A9 2px,
+    #A9A9A9 4px
+    );
+}
+
+h2 {
+  font-family: sans-serif;
+  border-top:
+  padding-bottom: 1px;
+  margin-bottom: 0;
+  margin-top: 50px;
+  font-size: 30px
+}
+
+#dateprint {
+  margin-top: 0;
+  border: 0;
+  color: #C0C0C0;
+  font-size: 12px;
+  font-family: monospace;
+}
+
+#printicon {
+  display: inline;
+  float: right;
+}
+
+#date {
+  display: inline;
+ padding: 0;
+ margin: 0;
+}
+
+#print {
+  display: inline;
+  padding: 0;
+  margin: 0;
+}
+
+#printer {
+  display: inline;
+  padding: 0;
+  margin:0;
+>>>>>>> master
 }
 
 #stripes2 {
