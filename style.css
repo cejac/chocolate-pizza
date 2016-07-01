@@ -18,7 +18,7 @@ article {
 
 article > p{
   display: flex;
-  margin: 10px 150px;
+  margin: 10px 180px;
   text-indent: 30px;
   font-family: serif;
   font-size: 20px;
@@ -61,11 +61,6 @@ margin-left: 150px
   margin-top: 0;
 }
 
-.float{
- z-index: 1;
- margin-right: 100px;
-}
-
 #formOne{
   -moz-column-count: 2;
   -moz-column-gap: 30px;
@@ -82,6 +77,8 @@ margin-left: 150px
   #stripes {
   padding-top: 20px;
   margin-top: 20px;
+  margin-left: 180px;
+  margin-right: 180px;
   height: 2px;
   background: repeating-linear-gradient(
     45deg,
@@ -94,7 +91,7 @@ margin-left: 150px
 
 h2 {
   font-family: sans-serif;
-  border-top:
+  margin-left: 180px;
   padding-bottom: 1px;
   margin-bottom: 0;
   margin-top: 50px;
@@ -107,11 +104,13 @@ h2 {
   color: #C0C0C0;
   font-size: 12px;
   font-family: monospace;
+  margin-left: 180px;
 }
 
 #printicon {
   display: inline;
   float: right;
+  margin-right: 180px;
 }
 
 #date {
@@ -134,8 +133,10 @@ h2 {
 
 #stripes2 {
   padding-top: 20px;
-  margin-top: 20px;
+  margin-top: 50px;
   margin-bottom: 20px;
+  margin-left: 180px;
+  margin-right: 180px;
   height: 2px;
   background: repeating-linear-gradient(
     45deg,
@@ -153,9 +154,10 @@ h2 {
 }
 
 #vanpic{
-  height: 35px;
-  weight: 35px;
+  height: 50px;
+  weight: 50px;
   padding-right: 10px;
+  margin-left: 300px;
 }
 
 #van {
@@ -188,6 +190,7 @@ h2 {
   height: 35px;
   font-family: monospace;;
   font-size: 10px;
+  margin-right: 300px;
 }
 
 footer {
