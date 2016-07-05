@@ -81,6 +81,8 @@ margin-left: 150px
 
 
   #stripes {
+  margin-left: 150px;
+  margin-right: 150px;
   padding-top: 20px;
   margin-top: 20px;
   height: 2px;
@@ -99,6 +101,7 @@ h2 {
   padding-bottom: 1px;
   margin-bottom: 0;
   margin-top: 50px;
+  margin-left: 150px;
   font-size: 30px;
 }
 
@@ -108,11 +111,13 @@ h2 {
   color: #C0C0C0;
   font-size: 12px;
   font-family: monospace;
+  margin-left: 150px;
 }
 
 #printicon {
   display: inline;
   float: right;
+  margin-right: 150px;
 }
 
 #date {
@@ -134,8 +139,10 @@ h2 {
 }
 
 #stripes2 {
+  margin-left: 150px;
+  margin-right: 150px;
   padding-top: 20px;
-  margin-top: 20px;
+  margin-top: 50px;
   margin-bottom: 20px;
   height: 2px;
   background: repeating-linear-gradient(
@@ -151,6 +158,8 @@ h2 {
   display: flex;
   justify-content: space-between;
   height: 40px;
+  margin-left: 150px;
+  margin-right: 150px;
 }
 
 #vanpic{
